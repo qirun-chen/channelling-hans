@@ -3,5 +3,5 @@ Hans Rosling is a data visualisation legend. This visualization is an homage to 
 
 Based on d3.v4
 
-Demo
+## Demo
 ![Assignment](https://github.com/OopsRyan/channelling-hans/blob/master/themes/channelling-hans.gif?raw=true)
