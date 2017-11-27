@@ -13,3 +13,5 @@ Based on d3.v4
 
 3.	You can move the mouse over a particular circle you have interest in, 
 	and then focus lines will be drawn so that you can see its detailed data.
+
+![TimeRecords](https://github.com/OopsRyan/channelling-hans/blob/master/themes/waka_time_records.jpg?raw=true)
