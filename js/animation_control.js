@@ -36,15 +36,15 @@ function pause() {
 
 function play_btn() {
     var play_btn = d3.select('#play_btn')
-    if (play_btn.attr('value') == '0') {
+    if (play_btn.attr('value') == 'Start') {
 
-        play_btn.attr('value', '1')
+        play_btn.attr('value', 'Pause')
         play_status = true
         play()
 
     } else {
 
-        play_btn.attr('value', '0')
+        play_btn.attr('value', 'Start')
         play_status = false
         pause()
     }
