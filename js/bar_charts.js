@@ -64,8 +64,6 @@ for (var i = regions.length - 1; i >= 0; i--) {
     region_data.push(dict)
 }
 
-console.log(region_data)
-
 var bars = d3.select("#region_svg").selectAll("rect")
     .data(region_data, function(d) { return d.Region; });
 
@@ -98,7 +96,6 @@ bars.enter()
         return region_xScale(d.Region);
     })
     .attr("height", function(d) {
-        console.log(barchart_height, region_yScale(d.Number))
         return barchart_height - region_yScale(d.Number);
     })
     .attr("width", function(d) {
@@ -179,8 +176,6 @@ for (var i = governments.length - 1; i >= 0; i--) {
     }).length;
     government_data.push(dict)
 }
-
-console.log(government_data)
 
 var bars = d3.select("#govern_svg").selectAll("rect")
     .data(government_data, function(d) { return d.Government; });

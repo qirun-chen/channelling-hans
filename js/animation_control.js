@@ -36,15 +36,15 @@ function pause() {
 
 function play_btn() {
     var play_btn = d3.select('#play_btn')
-    if (play_btn.attr('src') == './themes/play_btn_icon.svg') {
+    if (play_btn.attr('value') == '0') {
 
-        play_btn.attr('src', './themes/pause_btn_icon.svg')
+        play_btn.attr('value', '1')
         play_status = true
         play()
 
     } else {
 
-        play_btn.attr('src', './themes/play_btn_icon.svg')
+        play_btn.attr('value', '0')
         play_status = false
         pause()
     }
