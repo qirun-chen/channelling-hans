@@ -1,6 +1,7 @@
 # channelling-hans
 Hans Rosling is a data visualisation legend. This visualization is an homage to Hans Rosling.
 
+[See demo here](http://htmlpreview.github.io/?https://github.com/OopsRyan/channelling-hans/blob/master/channelling-hans.html)
 Based on d3.v4
 
 ## Demo
